@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.flex {
+  display: flex;
+}
+
+.User {
+  margin: auto;
+}
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.profile-photo.active {
+  width: 400px;
+  height: 400px;
+}
+
+.indicators {
+  font-size: 100px;
+  margin: auto;
+  cursor: pointer;
+}
